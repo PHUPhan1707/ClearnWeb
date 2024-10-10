@@ -14,7 +14,7 @@
             background-size: cover;
         }
         .crd-ho:hover{
-            background: ;
+
         }
     </style>
 
