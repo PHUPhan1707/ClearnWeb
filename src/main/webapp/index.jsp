@@ -1,3 +1,5 @@
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.DB.DBConnect" %>
 <html>
 <head>
     <title>
@@ -23,7 +25,12 @@
 </head>
 <body >
     <%@include file="all_component/navbar.jsp"%>
-    <div class="container-fluid back-img"> </div>
+    <div class="container-fluid back-img">
+
+    </div>
+
+
+
     <div class="container">
         <h3 class="text-center">Recent Service</h3>
         <div class="row ">
