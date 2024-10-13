@@ -8,12 +8,21 @@ public class User {
     private String password;
     private String phone;
     private String address;
+    private String landmark;
     private String city;
     private String state;
     private String pincode;
 
     public User(){
         super();
+    }
+
+    public String getLandmark() {
+        return landmark;
+    }
+
+    public void setLandmark(String landmark) {
+        this.landmark = landmark;
     }
     public int getId() {
         return id;
@@ -89,17 +98,17 @@ public class User {
 
     @Override
     public String toString() {
-        return "user{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", pincode='" + pincode + '\'' +
-                '}';
+        return "User[id=" + id +
+                ", name=" + name +
+                ", email=" + email +
+                ", password=" + password +
+                ", phone=" + phone +
+                ", address=" + address +
+                ", landmark=" + address +
+                ", city=" + city +
+                ", state=" + state +
+                ", pincode=" + pincode +
+                "]";
     }
 }
 

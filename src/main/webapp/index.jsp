@@ -30,7 +30,6 @@
     </div>
 
 
-
     <div class="container">
         <h3 class="text-center">Recent Service</h3>
         <div class="row ">
