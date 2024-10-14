@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
                 }
 
             }
-            resp.sendRedirect("home.jsp");
+
 
         } catch (Exception e) {
 

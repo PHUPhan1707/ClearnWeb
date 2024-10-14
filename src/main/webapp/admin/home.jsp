@@ -73,5 +73,7 @@
                 </div>
             </div>
         </div>
+<div style="margin-top:130px "><%@include file="footer.jsp" %></div>
+
 </body>
 </html>
